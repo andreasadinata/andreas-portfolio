@@ -1,37 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>HTML wireframe</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-    <body>
-        <nav role="navigation">Nav</nav>
-        <main role="main">
-            <header role="banner">
-                <h1>Andreas</h1>
+
+<head>
+    <title>Andreas Adinata's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins|Anton|Dosis|Cabin Condensed|Russo One|Amaranth|Paytone One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <main role="main">
+        <header role="banner">
+            <div class="nav-eighty">
+                <div class="logo"><a href="#home">Andre</a></div>
                 <nav>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li class="top-nav"><a href="#about-me" class="nav-option">About Me</a></li>
+                        <li class="top-nav"><a href="#skills" class="nav-option">Skills</a></li>
+                        <li class="top-nav"><a href="#projects" class="nav-option">Projects</a></li>
+                        <li class="top-nav"><a href="#contact-info" class="nav-option">Contact</a></li>
                     </ul>
                 </nav>
-            </header>
-            <section class="home">
-            </section>
-            <section class="about-me">
-                About me
-            </section>
-            <section>
-                Project
-            </section>
-            <section>
-                Email info
-            </section>
-        </main>
-        <footer role="contact-info">Footer</footer>
-    </body>
+            </div>
+        </header>
+        <section id="home">
+            <div class="opacity">
+                <div class="text">
+                    <div>
+                        Hi, I am Andre,
+                    </div>
+                    <div>
+                        a web developer from Silicon Valley.
+                    </div>
+                </div>
+                <div class="transparent"></div>
+                <div class="background-image-home"></div>
+                <!--                <img src="images/Coffee.jpg" class="background-image-home">-->
+            </div>
+        </section>
+        <section id="about-me">
+            <div class="about">
+                <h2>About Me</h2>
+                <div>I am a recent graduate of web development bootcamp program at Thinkful. I came all the way from Indonesia to pursue my career in programming after I graduate. Other than coding, I also love travelling, and one of my goals in life is to be able to visit all 196 countries in the world.</div>
+            </div>
+            <img class="img-about" src="images/linkedin%20(2).jpg">
+        </section>
+        <section id="skills">
+            <div class="eighty">
+                <div class="background-image-skills">
+                    <h2>Skills</h2>
+                    <ul class="skills-ul">
+                        <li><img src="icons/HTML5_Logo_512.png" class="logo-skills">
+                            <div>HTML5</div>
+                        </li>
+                        <li><img src="icons/css3-logo-FD8D698B77-seeklogo.com.png" class="logo-skills">
+                            <div>CSS3</div>
+                        </li>
+                        <li><img src="icons/js.sh.png" class="logo-skills">
+                            <div>JavaScript</div>
+                        </li>
+                        <li><img src="icons/jquery.gif" class="logo-skills">
+                            <div>jQuery</div>
+                        </li>
+                        <li><img src="icons/react.png" class="logo-skills">
+                            <div>ReactJs</div>
+                        </li>
+                        <li><img src="icons/nodejs_logo.png" class="logo-skills">
+                            <div>NodeJs</div>
+                        </li>
+                        <li><img src="icons/hosting_heroku.png" class="logo-skills">
+                            <div>Heroku</div>
+                        </li>
+                        <li><img src="icons/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" class="logo-skills">
+                            <div>TravisCI</div>
+                        </li>
+                        <li><img src="icons/mongodb-logo-1.png" class="logo-skills">
+                            <div>MongoDB</div>
+                        </li>
+                        <li><img src="icons/C.sh.png" class="logo-skills">
+                            <div>C</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li class="project-list">
+                    <div class="project-image">
+                        <img src="screenshot/planit-ss.png" class="project-ss odd-list">
+<div class="overlay">
+    <a href="https://planit-travel-calculator.herokuapp.com/" class="github-project github-live">LIVE</a>
+    <a href="https://github.com/andreasadinata/final-capstone-project" class="github-project github-repo"> REPO</a>
+</div>
+                        <figcaption>Created By: HTML5, CSS3, Javascript, jQuery, React, FlightScanner API, NodeJS, and MongoDB.</figcaption>
+                    </div>
+                    <div class="explanation explanation-odd"><span class="underline">PLANIT</span> is a travel calculator. This app will guide people to estimate their allowance and help them to research the perfect place to travel into. People will only need to put their location and destination, and we are going to help them to find the cheapest accomodation for them.</div>
+                </li>
+                <li class="project-list">
+                    <div class="explanation explanation-even">Some people are looking for friends to get active on the weekend. If I can find a friend that can exercise together, the exercise will be so much easier. <span class="underline">Merrython</span> will not only limited to those people who does not really have any energize friends. Merrython will help groups of people to find many outdoor activities. There are no limitation in it.</div>
+                    <div class="project-image">
+                        <img src="screenshot/merrython-ss.png" class="project-ss even-list">
+                        <figcaption>Created By: HTML5, CSS3, Javascript, jQuery, NodeJS, Active API, and MongoDB.</figcaption>
+                    </div>
+                </li>
+                <li class="project-list">
+                    <div class="project-image">
+                        <img src="screenshot/spotify-ss.png" class="project-ss odd-list">
+                        <figcaption>Created By: HTML5, CSS3, Javascript, jQuery, and Soundcloud API.</figcaption>
+                    </div>
+                    <div class="explanation explanation-odd"><span class="underline">HIT ME UP</span> will show the user the top DJs which has been performed well for the past a week. The update will be based on the EDM Magazine and many other EDM websites. The user will be shown around 5-10 DJs and user can choose on each selections to get to the list of 30s of their songs, In case the user does not really know the name.</div>
+                </li>
+                <li class="project-list">
+                    <div class="explanation explanation-even">This small <span class="underline">quiz app</span> will help people to evaluate their knowledge in term of how well do they know my home country Indonesia. Users will be shown a few questions and they will have a chance to answer it correctly. </div>
+                    <div class="project-image">
+                        <img src="screenshot/quiz-app-ss.png" class="project-ss even-list">
+                        <figcaption>Created By: HTML5, CSS3, Javascript, and jQuery.</figcaption>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="contact-info" role="contact-info">
+            <div class="eighty">
+                <h2>Contact Me</h2>
+                <div class="quote">There are many opportunities we can talk about together. Lets grab coffee sometimes!</div>
+                <ul>
+                    <li class="personal-information"><a href="https://github.com/andreasadinata" class="github PI" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Github</a></li>
+                    <li class="personal-information"><a href="https://www.linkedin.com/in/andreasadinata/" class="linkedin PI" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a></li>
+                    <li class="personal-information"><a href="mailto:adinataandreas@gmail.com" class="gmail PI" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i>Gmail</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            Created by Andreas Adinata
+        </h2>
+        <p>
+            made by jQuery, HTML5, CSS3 <i class="fa fa-coffee" aria-hidden="true"></i>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="client.js"></script>
+</body>
+
 </html>
