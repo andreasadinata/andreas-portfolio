@@ -15,7 +15,6 @@
     -webkit-padding-start: 0px;
     -webkit-padding-end: 0px;
     font-family: Poppins;
-    /*    color: #6F4E37;*/
 }
 
 body {
@@ -56,8 +55,8 @@ header {
     left: 0;
     right: 0;
     z-index: 10;
-    /*    background-image: url(images/Red.jpg)*/
     background-color: white;
+    /*    box-shadow: 0px -1px 18px 5px rgba(112, 112, 112, 1);*/
 }
 
 .nav-eighty {
@@ -141,7 +140,9 @@ section {
 
 .text {
     color: white;
-    padding: 200px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
     z-index: 2;
     width: 100%;
@@ -223,7 +224,6 @@ section {
 }
 
 .background-image-skills {
-    /*        background-image: url(images/Red.jpg);*/
     padding-top: 50px;
     font-family: Poppins;
     padding-bottom: 50px;
@@ -327,21 +327,23 @@ section {
     left: 0;
 }
 
+.github-project {
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    background: none;
+    opacity: 0.7;
+}
+
 .github-project:hover {
-    z-index: 2;
-    color: black;
+    color: white;
+    opacity: 1;
+    background-image: url(images/transparent.jpg);
+    border: 1px solid black;
 }
 
 .github-project:visited {
-    color: black;
-}
-
-.github-project {
-    color: black;
-    margin: 30px;
-    border: 1px solid black;
-    padding: 10px;
-    background: white;
+    color: white;
 }
 
 .github-live-quiz {
@@ -473,7 +475,6 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     opacity: 0.9;
-    /*    background-color: #FE642E;*/
     background-color: #6F4E37;
     color: white;
     opacity: 0.8;
@@ -487,4 +488,171 @@ footer h2 {
 
 footer p {
     font-size: 12px;
+}
+
+
+/*---------------*/
+
+
+/*Media Responsive*/
+
+
+/*----------------*/
+
+@media only screen and (max-width: 1190px) {
+    .explanation {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .explanation-odd {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1135px) {
+    .about {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .about div {
+        text-align: center;
+    }
+    .img-about {
+        height: 350px;
+    }
+    .transparent {
+        height: 600px;
+    }
+    .background-image-home {
+        height: 600px;
+    }
+    nav {
+        width: 68%;
+    }
+    .logo {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .transparent {
+        height: 550px;
+    }
+    .background-image-home {
+        height: 550px;
+    }
+    .text {
+        padding-top: 150px;
+    }
+    nav {
+        width: 78%;
+    }
+    .logo {
+        width: 20%;
+    }
+    .skills-ul li {
+        width: 23%;
+    }
+    .img-about {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    #about-me {
+        padding-top: 120px;
+    }
+    #skills {
+        padding-top: 75px;
+    }
+    #projects {
+        padding-top: 120px;
+    }
+    #contact-info {
+        padding-top: 120px;
+    }
+    .img-about {
+        height: 300px;
+    }
+    .explanation {
+        font-size: 17px;
+    }
+    footer h2 {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .nav-option {
+        font-size: 15px;
+    }
+    .top-nav {
+        margin-left: 10px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .skills-ul li {
+        width: 48%;
+    }
+    .text {
+        padding-top: 125px;
+    }
+    .transparent {
+        height: 500px;
+    }
+    .background-image-home {
+        height: 500px;
+    }
+    .img-about {
+        height: 280px;
+    }
+    .personal-information {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .project-ss {
+        width: 310px;
+        height: 160px;
+    }
+    .project-image {
+        width: auto;
+    }
+    .github-project {
+        font-size: 18px;
+        margin: 18px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo {
+        font-size: 25px;
+    }
+    .text {
+        padding-top: 70px;
+    }
+    .img-about {
+        height: 250px;
+    }
+    .github-project {
+        font-size: 15px;
+        margin: 10px;
+    }
 }
