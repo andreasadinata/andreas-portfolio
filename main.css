@@ -157,6 +157,7 @@ section {
     height: 630px;
     z-index: 1;
     background-image: url("images/transparent.jpg");
+    border: 1px solid blue;
     opacity: 0.6;
 }
 
@@ -168,6 +169,7 @@ section {
     height: 630px;
     z-index: 0;
     background-image: url("images/Coffee.jpg");
+    border: 1px solid red;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 20%;
