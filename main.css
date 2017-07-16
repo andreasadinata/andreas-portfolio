@@ -156,7 +156,7 @@ section {
     width: 80%;
     height: 630px;
     z-index: 1;
-    background-image: url(images/transparent.jpg);
+    background-image: url("images/transparent.jpg");
     opacity: 0.6;
 }
 
@@ -167,7 +167,7 @@ section {
     width: 80%;
     height: 630px;
     z-index: 0;
-    background-image: url(../images/Coffee.jpg);
+    background-image: url("images/Coffee.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 20%;
@@ -338,7 +338,7 @@ section {
 .github-project:hover {
     color: white;
     opacity: 1;
-    background-image: url(images/transparent.jpg);
+    background-image: url("images/transparent.jpg");
     border: 1px solid black;
 }
 
