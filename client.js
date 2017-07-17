@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    $(window).scroll(function () {
+        if (document.body.scrollTop === 0)
+            $("header").css({
+                "box-shadow": "none"
+            });
+        else {
+            $("header").css({
+                "box-shadow": "0px -1px 18px 5px rgba(112, 112, 112, 1)"
+            });
+        }
+    });
     // Add smooth scrolling to all links
     $("a").on('click', function (event) {
 
@@ -21,4 +32,5 @@ $(document).ready(function () {
             });
         } // End if
     });
+
 });
