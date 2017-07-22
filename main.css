@@ -127,16 +127,21 @@ section {
     font-family: Poppins;
     font-weight: bold;
     padding-top: 80px;
-}
-
-.opacity {
     margin-bottom: 300px;
-    text-align: center;
+    background-image: url(../images/coffee-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 20%;
+    background-attachment: fixed;
 }
 
-.opacity div {
+
+/*
+.opacity {
+
     text-align: center;
 }
+*/
 
 .text {
     color: #ffe699;
@@ -157,11 +162,13 @@ section {
     width: 80%;
     height: 630px;
     z-index: 0;
+    /*
     background-image: url(../images/coffee-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 20%;
     background-attachment: fixed;
+*/
     /*    opacity: 0.9;*/
 }
 
