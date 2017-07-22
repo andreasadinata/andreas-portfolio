@@ -649,7 +649,7 @@ footer p {
 
 @media only screen and (max-width: 580px) {
     #home {
-        background-size: 90%;
+        background-size: 50%;
     }
     .about div {
         line-height: 125%;
