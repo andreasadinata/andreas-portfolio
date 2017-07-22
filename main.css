@@ -126,13 +126,16 @@ section {
     font-size: 35px;
     font-family: Poppins;
     font-weight: bold;
+    /*
     padding-top: 80px;
     margin-bottom: 300px;
+*/
     background: rgba(0, 0, 0, 0) url(../images/coffee-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 500px;
 }
 
 
