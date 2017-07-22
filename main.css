@@ -126,16 +126,13 @@ section {
     font-size: 35px;
     font-family: Poppins;
     font-weight: bold;
-    /*
     padding-top: 80px;
-    margin-bottom: 300px;
-*/
     background: rgba(0, 0, 0, 0) url(../images/coffee-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    height: 600px;
 }
 
 
@@ -649,7 +646,7 @@ footer p {
 
 @media only screen and (max-width: 580px) {
     #home {
-        background-size: 100px 100px;
+        background-size: 300px 300px;
     }
     .about div {
         line-height: 125%;
