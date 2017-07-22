@@ -132,7 +132,7 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 600px;
+    height: 620px;
 }
 
 
@@ -518,7 +518,11 @@ footer p {
 }
 
 @media only screen and (max-width: 1135px) {
+    #anchorAbout {
+        margin-bottom: 100px;
+    }
     .about {
+        margin-top: 30px;
         width: 100%;
         height: auto;
         margin-bottom: 30px;
@@ -529,14 +533,6 @@ footer p {
     .img-about {
         height: 350px;
         margin-left: 0;
-    }
-    /*
-    .transparent {
-        height: 600px;
-    }
-*/
-    .background-image-home {
-        height: 600px;
     }
     nav {
         width: 68%;
@@ -572,11 +568,6 @@ footer p {
 }
 
 @media only screen and (max-width: 750px) {
-    /*
-    .transparent {
-        height: 550px;
-    }
-*/
     .background-image-home {
         height: 570px;
     }
@@ -646,7 +637,7 @@ footer p {
 
 @media only screen and (max-width: 580px) {
     #home {
-        background-size: 300px 300px;
+        height: 500px;
     }
     .about div {
         line-height: 125%;
@@ -668,14 +659,6 @@ footer p {
     }
     .text {
         padding-top: 125px;
-    }
-    /*
-    .transparent {
-     height: 500px;
- }
-*/
-    .background-image-home {
-        height: 540px;
     }
     .img-about {
         height: 280px;
