@@ -157,7 +157,7 @@ section {
     width: 80%;
     height: 630px;
     z-index: 0;
-    background-image: url(images/coffee-dark.jpg);
+    background-image: url(../images/coffee-dark.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 20%;
