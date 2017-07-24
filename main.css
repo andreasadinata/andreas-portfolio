@@ -132,16 +132,9 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: scroll;
     height: 620px;
 }
-
-
-/*
-.opacity {
-
-    text-align: center;
-}
-*/
 
 .text {
     color: #ffe699;
@@ -154,24 +147,13 @@ section {
 }
 
 
-/*
-.background-image-home {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 80%;
-    height: 630px;
-    z-index: 0;
-    background-image: url(../images/coffee-dark.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 30% 20%;
-    background-attachment: fixed;
-}
-*/
+/*--*/
 
 
 /*about me*/
+
+
+/*---*/
 
 #about-me {
     padding-top: 90px;
@@ -209,8 +191,8 @@ section {
 }
 
 #anchorAbout {
-    margin-top: 0;
-    padding-bottom: 20px
+    margin-top: 180px;
+    /*    padding-bottom: 20px;*/
 }
 
 
@@ -519,10 +501,11 @@ footer p {
 
 @media only screen and (max-width: 1135px) {
     #anchorAbout {
-        margin-bottom: 100px;
+        margin-top: 0;
+        padding-bottom: 100px;
     }
     .about {
-        margin-top: 30px;
+        margin-top: 10px;
         width: 100%;
         height: auto;
         margin-bottom: 30px;
@@ -568,8 +551,8 @@ footer p {
 }
 
 @media only screen and (max-width: 750px) {
-    .background-image-home {
-        height: 570px;
+    #home {
+        height: 560px;
     }
     .text {
         padding-top: 150px;
@@ -638,6 +621,12 @@ footer p {
 @media only screen and (max-width: 580px) {
     #home {
         height: 500px;
+    }
+    #anchorAbout {
+        margin-top: 0px;
+    }
+    #about-me {
+        margin-top: 20px;
     }
     .about div {
         line-height: 125%;
@@ -718,6 +707,9 @@ footer p {
 /*If resolution more than 1366px*/
 
 @media only screen and (min-width: 1600px) {
+    #home {
+        height: 850px;
+    }
     .logo a {
         font-size: 45px;
     }
@@ -727,9 +719,6 @@ footer p {
     .text {
         padding-top: 250px;
         font-size: 50px;
-    }
-    .background-image-home {
-        height: 850px;
     }
     #about-me {
         padding-top: 150px;
