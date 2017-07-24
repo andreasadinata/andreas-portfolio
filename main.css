@@ -132,12 +132,12 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: scroll;
     height: 620px;
 }
 
 .text {
-    color: #ffe699;
+    /*    color: #ffe699;*/
+    color: antiquewhite;
     /*    color: #dfbf9f;*/
     padding-top: 200px;
     padding-left: 50px;
@@ -620,7 +620,7 @@ footer p {
 
 @media only screen and (max-width: 580px) {
     #home {
-        height: 500px;
+        height: 520px;
     }
     #anchorAbout {
         margin-top: 0px;
@@ -700,6 +700,23 @@ footer p {
     .github-project {
         font-size: 15px;
         margin: 10px;
+    }
+    #home {
+        height: 550px;
+        background-attachment: scroll;
+    }
+}
+
+
+/*iphone 5*/
+
+@media only screen and (max-width: 380px) {
+    #home {
+        height: 570px;
+        background-attachment: scroll;
+    }
+    nav ul {
+        font-size: 11px;
     }
 }
 
