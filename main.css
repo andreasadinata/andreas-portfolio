@@ -127,7 +127,7 @@ section {
     font-family: Poppins;
     font-weight: bold;
     padding-top: 80px;
-    background: rgba(0, 0, 0, 0) url(../images/coffee-dark.jpg) no-repeat center center fixed;
+    background: rgba(0, 0, 0, 0) url(images/coffee-dark.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -344,12 +344,16 @@ section {
     font-family: Pacifico;
 }
 
-.github-live-hitmeup {
+.github-live-w2w {
     font-family: Rubik Mono One;
 }
 
 .github-live-quiz {
     font-family: Indie Flower
+}
+
+.github-live-hoc {
+    font-family: sans-serif;
 }
 
 
@@ -363,7 +367,8 @@ section {
     line-height: 200%;
 }
 
-.explanation-odd {
+.explanation-odd,
+.explanation-under {
     text-align: right;
     margin-left: 5%;
 }
@@ -388,6 +393,7 @@ section {
 /*-----------*/
 
 #contact-info {
+    margin-top: 50px;
     padding-top: 60px;
     background-color: #f9f9f9;
     width: 100%;
@@ -494,7 +500,8 @@ footer p {
         margin-left: 0;
         margin-right: 0;
     }
-    .explanation-odd {
+    .explanation-odd,
+    .explanation-under {
         margin-top: 30px;
     }
 }
@@ -526,7 +533,8 @@ footer p {
     .opacity {
         margin-bottom: 200px;
     }
-    .explanation-odd {
+    .explanation-odd,
+    .explanation-under {
         margin-bottom: 0;
     }
     .phone-explanation {
