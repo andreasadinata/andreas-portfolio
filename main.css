@@ -329,16 +329,16 @@ section {
     width: 300px;
 }
 
+.github-project:visited {
+    color: black;
+}
+
 .github-project:hover {
     color: white;
     opacity: 1;
     background-image: url("images/transparent.jpg");
     border: 1px solid black;
     border-radius: 3px;
-}
-
-.github-project:visited {
-    color: white;
 }
 
 .github-live-quiz {
