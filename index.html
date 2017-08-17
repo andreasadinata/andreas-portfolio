@@ -2,17 +2,16 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Andreas's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Poppins|Dosis|Russo One|Permanent Marker|Pacifico|Rubik Mono One|Indie Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="icon" href="images/Coffee-Logo-PNG-Image.png">
-
 </head>
 
 <body>
-    <main role="main">
+    <main>
         <header role="banner">
             <div class="nav-eighty">
                 <div class="logo"><a href="#home">Andreas</a></div>
@@ -27,26 +26,73 @@
             </div>
         </header>
         <section id="home">
-            <div class="opacity">
-                <div class="text">
+            <section class="wallpaper"></section>
+            <section class="text">
+                <div class="text-container">
                     <div>
                         Hi, I am Andreas,
                     </div>
-                    <p>
+                    <div>
                         a web developer from Silicon Valley.
-                    </p>
+                    </div>
+                    <div>
+                        <a href="#anchorAbout">About Me</a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="small-project-box-overlay-parent">
+            <div class="small-project-box-overlay-child">
+                <div class="small-project-box-middle-box">
+                    <div class="small-project-box-container">
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <img src="images/tim-bogdanov-97988.jpg" class="featured-images">
+                                <div class="featured-projects-text">
+                                    <h1>FEATURED PROJECT </h1>
+                                    <h2>PLANIT</h2>
+                                    <p>Travel calculator for user to estimate their allowance during their travel trip.</p>
+                                </div>
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="images/joshua-earle-234343.jpg" class="featured-images">
+                                <div class="featured-projects-text">
+                                    <h1>FEATURED PROJECT </h1>
+                                    <h2>Merrython</h2>
+                                    <p>Marathon/running event finder</p>
+                                </div>
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="images/jakob-owens-224352%20(1).jpg" class="featured-images">
+                                <div class="featured-projects-text">
+                                    <h1>FEATURED PROJECT </h1>
+                                    <h2>W2W</h2>
+                                    <p>Creator/Youtuber’s monthly trending chart</p>
+                                </div>
+                            </div> <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="anchorAbout"></div>
         </section>
-        <section id="about-me">
-            <div class="about">
-                <h2>About Me</h2>
-                <div>I am a self-taught JavaScript developer who just graduated from a bootcamp program at Thinkful. I came all the way from Indonesia to pursue my career in programming after I graduate. I always believe that I can make the world become a better place, and become a developer is one of many ways to do that. The main responsibility of the developer is to facilitate people’s live by creating new programs continuously. Other than coding, I also love traveling, and one of my goals in life is to be able to visit all 196 countries in the world.
+        <section class="about-me">
+            <div class="transparent-layer">
+                <div class="about-me-container">
+                    <h1>WHO IS ANDREAS?</h1>
+                    <img src="images/profpic.png" class="profile-image">
+                    <div>I am a self-taught JavaScript developer who just graduated from a bootcamp program at Thinkful. I came all the way from Indonesia to pursue my career in programming after I graduate. I always believe that I can make the world become a better place, and become a developer is one of many ways to do that. Other than coding, I also love traveling, and one of my goals in life is to be able to visit all 196 countries in the world.</div>
+                    <div id="anchorProjects"></div>
                 </div>
+
             </div>
-            <img class="img-about" src="images/linkedin%20(2).jpg">
-            <div id="anchorProjects"></div>
         </section>
         <section id="projects">
             <div class="projects-eighty">
@@ -71,7 +117,7 @@
                                 <a href="https://github.com/andreasadinata/merrython" target="_blank" class="github-project github-repo"><i class="fa fa-github" aria-hidden="true"></i>REPO</a>
                             </div>
                         </div>
-                        <div class="project-image">
+                        <div class="project-image float-right">
                             <img src="screenshot/merrython-ss.png" class="project-ss even-list">
                             <figcaption>Created By: HTML5, CSS3, Javascript, jQuery, NodeJS, Active API, and MongoDB.</figcaption>
                         </div>
@@ -147,7 +193,7 @@
         <section id="contact-info" role="contact-info">
             <div class="eighty">
                 <h2>Contact Me</h2>
-                <div class="quote">There are many opportunities we can talk about together. Lets grab coffee sometimes!</div>
+                <div class="quote">There are many opportunities we can talk about together. Lets grab coffee sometime!</div>
                 <ul>
                     <li class="personal-information"><a href="https://github.com/andreasadinata" class="github PI" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>Github</a></li>
                     <li class="personal-information"><a href="https://www.linkedin.com/in/andreasadinata/" class="linkedin PI" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</a></li>
@@ -155,16 +201,22 @@
                 </ul>
             </div>
         </section>
+        <footer>
+            <h2>
+                    Created by Andreas Adinata
+                </h2>
+            <p>
+                made by jQuery, HTML5, CSS3 <i class="fa fa-coffee" aria-hidden="true"></i>
+            </p>
+        </footer>
     </main>
-    <footer>
-        <h2>
-            Created by Andreas Adinata
-        </h2>
-        <p>
-            made by jQuery, HTML5, CSS3 <i class="fa fa-coffee" aria-hidden="true"></i>
-        </p>
-    </footer>
-
+    <!--
+<div id="loader-wrapper">
+<div id="loader"></div>
+<div class="loader-section section-left"></div>
+<div class="loader-section section-right"></div>
+</div>
+-->
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="client.js"></script>
 </body>
